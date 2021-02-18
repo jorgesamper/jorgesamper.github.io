@@ -8,6 +8,7 @@ svg {
 p,
 li {
   line-height: 30px;
+  font-weight: 300;
 }
 ul {
   padding-left: 0;
