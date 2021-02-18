@@ -54,26 +54,68 @@ body {
 }
 
 .section__welcome--title {
-  width: 870px;
+  width: 100%;
   white-space: nowrap;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.section__welcome--title .button {
+  margin-top: 75px;
+}
+
+
 
 .section__welcome--subtitle {
   font-weight: 300;
-  font-size: 18px;
-  white-space: break-spaces;
+  font-size: 15px;
+  white-space: initial;
 }
 
 .section__welcome--title .title p {
   font-weight: bold;
-  font-size: 75px;
+  font-size: 31px;
+}
+
+.section__welcome--title .title img {
+  height: 37px;
+}
+
+@media (min-width: 768px) {
+  .section__welcome--title .title p {
+    font-weight: bold;
+    font-size: 75px;
+  }
+
+  .section__welcome--subtitle {
+    font-size: 18px;
+    white-space: pre-line;
+  }
+
+  .section__welcome--title .title img {
+    height: 75px;
+  }
 }
 
 @media (min-width: 1440px) {
   .section__welcome--title .title p {
     font-weight: bold;
     font-size: 95px;
+  }
+
+  .section__welcome--title .title p:nth-child(1){
+    margin-block-end: 20px;
+  }
+
+  .section__welcome--title .title p:nth-child(2){
+    margin-block-start: 57px;
+  }
+
+  .section__welcome--title .title img {
+    height: 95px;
   }
 }
 
@@ -110,8 +152,7 @@ body {
 }
 
 .section__information.second {
-  display: flex;
-  flex-direction: column;
+  display: none;
 }
 
 .section__information figure {
@@ -124,6 +165,15 @@ body {
 
 .section__information--info p.second {
   margin-top: 50px;
+}
+
+
+
+@media (min-width: 768px) {
+  .section__information.second {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -149,6 +199,7 @@ body {
   display: flex;
   height: 590px;
   flex-direction: column-reverse;
+  justify-content: center;
 }
 
 .section__home--title {
@@ -190,6 +241,7 @@ body {
   height: 505px;
   width: 100%;
   margin: 0;
+  height: 300px;
 }
 .section__home--text {
   width: 40%;
@@ -231,20 +283,29 @@ body {
   display: none;
 }
 
+
+@media (min-width: 768px) {
+  .section__home figure {
+    height: 300px;
+  }
+  
+}
+
 @media (min-width: 1024px) {
   .section__home--text .text {
     display: block;
   }
   .section__home figure {
-    width: 60%;
+    width: 55%;
 
     position: absolute;
-    right: -100px;
+    right: 0;
     height: 520px;
     display: block;
   }
   .section__home {
     flex-direction: unset;
+    justify-content: space-between;
   }
 }
 
