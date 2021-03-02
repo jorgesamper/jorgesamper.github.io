@@ -1,5 +1,8 @@
 /* BODY */
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
 svg {
   width: 100%;
   height: 100%;
@@ -24,30 +27,31 @@ body {
 }
 
 /* SECTION ONE */
-.container {
-  position: relative;
-  height: 100vh;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-.section {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  scroll-snap-align: center;
-}
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  scroll-snap-align: center;
-}
 
-@media (min-width: 1200px) {
-  .footer {
-    height: 50vh;
+@media (min-width: 768px) {
+
+
+/*   .container {
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
   }
+  .section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: center;
+    height: 50vh;
+
+  } */
 }
 
 .section .icon {
@@ -66,6 +70,7 @@ body {
 
 .section__welcome--title .button {
   margin-top: 75px;
+  background: #15141a;
 }
 
 
@@ -79,6 +84,7 @@ body {
 .section__welcome--title .title p {
   font-weight: bold;
   font-size: 31px;
+  font-family: system-ui
 }
 
 .section__welcome--title .title img {
@@ -88,7 +94,7 @@ body {
 @media (min-width: 768px) {
   .section__welcome--title .title p {
     font-weight: bold;
-    font-size: 75px;
+    font-size: 85px;
   }
 
   .section__welcome--subtitle {
@@ -128,12 +134,16 @@ body {
   border: none;
   font-size: 18px;
   background: #2f2f2f;
-  box-shadow: 0px 10px 20px #2f2f2f;
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.01em;
   font-weight: 500;
+  transition: box-shadow 300ms ease;
+}
+
+.button:hover{
+  box-shadow: 0px 10px 20px #2f2f2f;
 }
 
 .first {
@@ -162,6 +172,10 @@ body {
 
 .section__information--info {
   width: 100%;
+}
+
+.section__information--info h2 {
+  font-size: 2.3em;
 }
 
 .section__information--info p.second {
@@ -227,7 +241,7 @@ body {
 
 .section__home--title h2 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 42px;
 }
 
@@ -248,7 +262,7 @@ body {
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .section__home--text .text {
@@ -411,7 +425,7 @@ body {
 }
 
 .footer__copy {
-  padding: 16px 0;
+  padding: 8px 0;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
