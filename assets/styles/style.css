@@ -454,7 +454,7 @@ body {
 }
 
 .footer__item--content {
-  
+  margin-bottom: 42px;
 }
 
 .footer__content .footer__item:last-child{
