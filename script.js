@@ -1,8 +1,3 @@
-// const playPauseBtn = document.getElementById('playPauseBtn');
-// const playPauseIcon = document.getElementById('playPauseIcon');
-// const audioPlayer = document.getElementById('audioPlayer');
-
-
 // //Changing-Phrase*
 
 // const typed = new Typed('.typed',{
@@ -51,9 +46,6 @@ window.addEventListener("scroll", function() {
     const scrollProgress = (scrollTop / scrollHeight) * 100;
     document.querySelector(".bar").style.width = scrollProgress + "%";
 });
-
-
-
 
 // //  BOTON TOOGLE
 

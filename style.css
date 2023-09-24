@@ -34,17 +34,10 @@
   font-size: 24px; 
 }
 
-
-
 .body{ 
   background-color: var(--bg-color);
   color: var(--text-color);
-
-  
-  
 }
-
-
 
 .section{
   padding: 40px 10px 7%;
@@ -64,9 +57,8 @@
   border-bottom: 1px solid transparent;
   transition: all .45s ease;
 
-  background-color: rgba(#1e0029, 25); /* Color con opacidad */
+  background-color: rgba(#1e0029, 25); 
   backdrop-filter: blur(4px); 
-  
 }
 
 /* scroll */
@@ -78,12 +70,10 @@
   height: 5px;
   background-color: #2c2c2c;
   z-index: 2;
-  
 }
 
 .progress.active{
   display: block; /* Mostrar la barra de progreso cuando está activa */
-
 }
 
 .bar {
@@ -95,13 +85,9 @@
   z-index: 1;
 }
 
-
-
 .span{
   color: var(--main-color);
 }
-
-  
 
 /* start button-toogle */
 
@@ -189,8 +175,6 @@ input[type="checkbox"] {
   display: block; /* Muestra el botón */
 }
 
-
-
 .home{
   position: relative;
   height: 100vh;
@@ -229,12 +213,8 @@ input[type="checkbox"] {
   margin-bottom: 40px;
 }
 
-
-
-
 .slide{
   margin-bottom: 20px;
- 
 }
 
 .one{
@@ -260,22 +240,15 @@ input[type="checkbox"] {
 
 .two-right img {
   max-width: 100%;
-
   height: auto;
   position: cover;
   padding: 10px;
-  
-  
 }
 
 .two-right:hover {
   transform: scale(1.03);
   transition: transform 0.3s;
-
 }
-
-
-
 
 .button{
   display: inline-flex;
@@ -294,7 +267,6 @@ input[type="checkbox"] {
   letter-spacing: 1px;
   font-weight: 600;
   transition: all .35s ease;
-  
 }
 
 .btn:hover{
@@ -302,7 +274,6 @@ input[type="checkbox"] {
   box-shadow: #ff1aec;
   transform: translateY(-5px);
   box-shadow: 0 0px 18px 0px #ff1aec;
-  
 }
 
 .btn2{
@@ -313,7 +284,6 @@ input[type="checkbox"] {
   font-weight: 600;
   color: var(--text-color);
   margin-left: 35px;
-  
 }
 
 .btn2 span i{
@@ -328,13 +298,11 @@ input[type="checkbox"] {
   border-radius: 50%;
   margin-right: 15px;
   transition: all .35s ease;
-
 }
 
 .btn2 span i:hover{
   transform: translateY(-5px);
   box-shadow: 0 0px 28px 0px #ff1aec;
-  
 }
 
 #playPauseBTN.active {
@@ -345,15 +313,12 @@ input[type="checkbox"] {
   font-size: 35px;
   border-radius: 50%;
   margin-right: 15px;
-
   /* transition: all .35s ease; */
  
 }
 #playPauseBTN.active:hover {
   transform: translateY(-5px);
   box-shadow: 0 0px 28px 0px #ff1aec;
-  /* Agrega cualquier otra propiedad de hover que desees */
-  
 }
 
 
@@ -382,7 +347,6 @@ input[type="checkbox"] {
   transform: scale(0.9);
   transform: translateY(-5px);
   box-shadow: 0 0px 35px 0px #0080DB;
-  
 }
 
 
@@ -428,8 +392,6 @@ input[type="checkbox"] {
   box-shadow: 0 0px 35px 0px #FF9C06; 
 }
 
-
-
 /* // botton PLAY/PAUSE music */
 
 #musicplayer{
@@ -437,8 +399,6 @@ input[type="checkbox"] {
  border: none;
  background-color: var(--main-color);
  border-radius: 10rem;
- 
- 
 
 }
 
@@ -447,11 +407,7 @@ input[type="checkbox"] {
   background-color: #1800ee;
   transform: scale(1.1) translateY(2px);
   color: #72ff7e;
-  
-  
 }
-
-
 
 .header.sticky{
   background: var(--bg-color);
@@ -470,12 +426,7 @@ input[type="checkbox"] {
   margin-left: auto;
   margin-right: auto;
   padding:7%;
-
-  
-  
 }
-
-
 
 .about-img img{
   max-width: 530px;
@@ -489,8 +440,6 @@ input[type="checkbox"] {
   position: cover;
   width: fit-content;
   margin-bottom: 20px;
-
- 
 }
 
 .about-text h2{
@@ -511,14 +460,6 @@ input[type="checkbox"] {
   margin-bottom: 35px;
 }
 
-
-
-
-
-
-
-
-
 .about-text h4{
   font-size: 24px;
   font-weight: 600;
@@ -533,8 +474,6 @@ input[type="checkbox"] {
   line-height: 1.8;
   margin-bottom: 1rem;
 }
-
-
 
 /* icons skills */
 .logo{
@@ -561,14 +500,9 @@ input[type="checkbox"] {
   max-width: 100%;
 }
 
-
-
-
-
 .services{
    background-color: rgb(29, 0, 44);
    padding-top: 25px;
-
 }
 
 .services-container{
@@ -594,16 +528,12 @@ input[type="checkbox"] {
 .main-text h2{
   font-size: var(--h2-font);
   line-height: 1;
-  
 }
 
 .main-text-portafolio{
   font-size: var(--second-bg-color);
   line-height: 1;
   font-size: 2rem;
- 
-  
-  
 }
 
 
@@ -616,7 +546,6 @@ input[type="checkbox"] {
 .services-container{
   gap: 1.5em;
   padding-top: 0%;
-  
 }
 
 .box{
@@ -635,9 +564,7 @@ input[type="checkbox"] {
   border-color:#ff1aec;
   border: 10px;
   box-shadow: 0 0px 28px 0px #ff1aec;
- 
 }
-
 
 .box h3{
   font-size: 24px;
@@ -652,25 +579,15 @@ input[type="checkbox"] {
   line-height: 1.8;
   margin-bottom: 25px;
 }
-
-
-
 .s-icons i{
   font-size: 45px;
   margin-bottom:20px;
   color: #ffffff;
 }
 
-
 .main-split{
   display: flex;
-
-
 }
-
-
-
-
 
 .split {
   display: flex;
@@ -681,33 +598,24 @@ input[type="checkbox"] {
 .tittle-split{
   display: flex;
   justify-content: flex-start;
-  
+
 }
-
-
 
 .portafolio-content{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center;
- 
-  
 }
-
-
 
 .row{
   position:relative;
   overflow: hidden;
   /* border-radius: 8px; */
   cursor:pointer;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
 
 .row img{
   background: 100%;
@@ -719,9 +627,6 @@ input[type="checkbox"] {
   height: auto; /* Ajusta la altura automáticamente */
 
 }
-
-
-
 
 .row:hover img{
   transform:scale(1.1);
@@ -741,9 +646,6 @@ input[type="checkbox"] {
 
 }
 
-
-
-
 .img1 {
   max-width: 100%;
   height: auto;
@@ -754,9 +656,6 @@ input[type="checkbox"] {
 .img1:hover {
   transform: scale(1.03);
 }
-
-
-
 
 .footer 	{ text-align:center; }
 .footer a  { color:#53B2C8; }
@@ -785,9 +684,8 @@ border:none;
 background-color: #2e0046;
 border-bottom:1px solid #757575;
 caret-color: #ffffff; /* Cambia el color del cursor aquí */
-
-
 }
+
 input:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
@@ -864,15 +762,8 @@ animation:inputHighlighter 0.3s ease;
 }
 
 .footer a {
-  margin-right: 30px; /* Ajusta la cantidad de espacio deseada */
+  margin-right: 30px; 
 }
-
-
-
-
-
-
-
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
@@ -888,53 +779,14 @@ from { background:#5264AE; }
 to 	{ width:0; background:transparent; }
 }
 
-
-
-/* @media (min-width:768px) {
-  .navlist.mobile {
-      display: none;
-  }
-
-  .nav{
-      --state-hamburguer:scale(0);
-      --state-menu: translate(0);
-  }
-  
-  .nav:target{
-      --state-close: scale(0);
-  }
-
-  .navlist{
-      padding: 0;
-      background-color: unset;
-      position: unset;
-      gap: 1.5em;
-      grid-auto-flow: column;
-  
-      transform: unset;
-
-      grid-column: -2/-1;
-      grid-row: 1/2;
-      
-  }
-
-  .nav__link{
-      font-size: 1rem;
-      letter-spacing: none;
-  }
-} */
-
-
-
-
-@media (max-width: 767px) { /* Aplica estas reglas en dispositivos con un ancho máximo de 767px */
+@media (max-width: 767px) { /* Ancho máximo de 767px */
   .logo-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Divide las columnas en dos */
-    gap: 45px; /* Agrega un espacio entre las imágenes */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 45px; 
   }
   .logo {
-    width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho del contenedor */
+    width: 100%; 
   }
 
   .main-text{
@@ -944,13 +796,10 @@ to 	{ width:0; background:transparent; }
       color: #ffffff;
       padding: 15px 6%;
       margin-top: 55px;
-      
-
   }
   
 }
 
-  
 
 @media (min-width: 1200px) {
   .services-container{
@@ -965,32 +814,8 @@ to 	{ width:0; background:transparent; }
      
       padding:6%;
   
-  
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .navbar__link a::before,
@@ -1012,7 +837,6 @@ to 	{ width:0; background:transparent; }
 
 .navbar__link .active {
   color: var(--main-color);
-  
 } 
 
 
@@ -1045,34 +869,28 @@ to 	{ width:0; background:transparent; }
   justify-content: space-between;
   padding: 10px 7%;
   font-size: 1.1rem;
-  background-color: rgba(152, 0, 229, 0.1); /* Cambia el valor RGB y la opacidad según lo deseado */
+  background-color: rgba(152, 0, 229, 0.1); 
   
   position: sticky;
-  top: 0; /* Fijar en la parte superior de la ventana */
-  z-index: 1; /* Asegurarse de que esté por encima de otros elementos */
-  backdrop-filter: blur(10px); /* Aplicar un efecto de desenfoque */
+  top: 0; 
+  z-index: 1; 
+  backdrop-filter: blur(10px); 
 }
 
 .navbar__links { 
   display:flex; 
-  
-
-  
 }
+
 .navbar__link { 
   padding:0 15px;
 }
 .navbar__link > a { 
   color:var(--navbar-color);
   text-decoration:none;
-  
 }
 .navbar__link > a:hover {
   color: var(--main-color);
-  
 }
-
-
 
 .burger {
   display:none;
@@ -1105,8 +923,6 @@ to 	{ width:0; background:transparent; }
     transition: all .5s ease-in-out;
     margin-top: 23px;
     margin-top:30px;
-    
-
   }
   
   .show-nav .navbar__link  {        
