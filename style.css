@@ -324,16 +324,20 @@ input[type="checkbox"] {
 
 .num1{
   color:#0080DB;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .num2{
   color:#4235E2;
+  margin-right: 10px;
+  
 }
 .num3{
   color:#4FCE5D; 
+  margin-right: 10px;
 }
 .num4{
   color: #FF9C06; 
+  margin-right: 10px;
 }
 .custom-btn {
   background-color: #0080DB; 
