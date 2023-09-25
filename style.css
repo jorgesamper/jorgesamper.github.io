@@ -487,15 +487,14 @@ input[type="checkbox"] {
   width: 4rem; /* Ancho deseado */
   height: 4rem; /* Altura deseada */
   transition: 0.3s ease;
-  
 }
 
 .logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 .logo-grid{
   display: grid;
-  grid-template-columns:repeat(10, 1fr);
+  grid-template-columns:repeat(8, 1fr);
   gap:10px;
 }
 
@@ -503,6 +502,13 @@ input[type="checkbox"] {
   width: 100%;
   max-width: 100%;
 }
+
+.logo img {
+width: 100%; 
+height: 100%; 
+object-fit: contain;
+}
+
 
 .services{
    background-color: rgb(29, 0, 44);
