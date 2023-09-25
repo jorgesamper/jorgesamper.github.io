@@ -578,6 +578,11 @@ input[type="checkbox"] {
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 25px;
+  
+}
+
+.box a{
+  color: rgb(174, 0, 255);
 }
 .s-icons i{
   font-size: 45px;
@@ -675,7 +680,7 @@ max-width: 400px;
 }
 
 input 				{
-  color:#72FF7E;
+color:#72FF7E;
 font-size:18px;
 padding:10px 20px 10px 10px;
 display:block;
@@ -683,7 +688,7 @@ width:100%;
 border:none;
 background-color: #2e0046;
 border-bottom:1px solid #757575;
-caret-color: #ffffff; /* Cambia el color del cursor aquí */
+caret-color: #72FF7E;/* Cambia el color del cursor aquí */
 }
 
 input:focus 		{ outline:none; }
@@ -869,7 +874,7 @@ to 	{ width:0; background:transparent; }
   justify-content: space-between;
   padding: 10px 7%;
   font-size: 1.1rem;
-  background-color: RGB(29, 0, 44, 0.1 ); 
+  background-color: RGB(29, 0, 44); 
   position: sticky;
   top: 0; 
   z-index: 1; 
