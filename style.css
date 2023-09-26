@@ -201,9 +201,17 @@ input[type="checkbox"] {
 .home-text h3{
   color: var(--text-color);
   margin: 0 0 35px;
-  font-size: 3rem;
+  font-size: 8rem;
   font-weight: 700;
   line-height: 1.1;
+}
+
+
+/* Estilo para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .home-text h3 {
+      font-size: 3.5rem; 
+  }
 }
 
 .home-text p{
@@ -1019,11 +1027,6 @@ to 	{ width:0; background:transparent; }
   } 
   .show-nav .fifth {      
     transition: all 1.4s ease-out;
-  }
-
-
-  .home-text h3 {
-    font-size: 4rem; 
   }
 }
 
