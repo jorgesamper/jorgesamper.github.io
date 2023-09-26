@@ -452,17 +452,6 @@ input[type="checkbox"] {
   color: #ffffff;
 }
 
-.main-text{
-  font-size: var(--h2-font);
-  line-height: 1;
-  color: #ffffff;
-  padding: 15px 6%;
-}
-
-.main-text-tittle{
-  text-align: center;
-  margin-bottom: 35px;
-}
 
 .about-text h4{
   font-size: 24px;
@@ -526,13 +515,23 @@ object-fit: contain;
 
 .main-text{
   text-decoration: center;
-  padding: 10px 6%;   
+  margin-top: 40px;   
+  font-size: var(--h2-font);
+  line-height: 1;
+  color: #ffffff;
+  
 }
 
 .main-text p{
   color: var(--second-color);
   font-size: 15px;
   margin-bottom: 15px;
+}
+
+
+.main-text-tittle{
+  text-align: center;
+  
 }
 
 .main-text h2{
@@ -809,7 +808,7 @@ to 	{ width:0; background:transparent; }
       font-size: var(--h2-font);
       line-height: 1;
       color: #ffffff;
-      padding: 15px 6%;
+      
       margin-top: 55px;
   }
   
