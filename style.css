@@ -515,11 +515,10 @@ object-fit: contain;
 
 .main-text{
   text-decoration: center;
-  margin-top: 40px;   
+  padding: 10px 6%;   
   font-size: var(--h2-font);
   line-height: 1;
   color: #ffffff;
-  
 }
 
 .main-text p{
@@ -808,7 +807,7 @@ to 	{ width:0; background:transparent; }
       font-size: var(--h2-font);
       line-height: 1;
       color: #ffffff;
-      
+      padding: 15px 6%;
       margin-top: 55px;
   }
   
