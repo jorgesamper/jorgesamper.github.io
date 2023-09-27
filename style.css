@@ -680,6 +680,19 @@ object-fit: contain;
   transform: scale(1.03);
 }
 
+@media (max-width: 768px) {
+  .img1 {
+      width: 100%; /* Opcional: puedes ajustar este valor según tus necesidades */
+      height: 300px;
+      width: auto;
+      transition: transform 0.3s ease;
+      display: block; /* Elimina espacio adicional debajo de la imagen */
+      margin: 0 auto; /* Alinea horizontalmente la imagen en el centro */
+      object-fit: cover; /* Hacer que la imagen cubra completamente el contenedor */
+
+    }
+  }
+
 .footer 	{ text-align:center; }
 .footer a  { color:#53B2C8; }
 
