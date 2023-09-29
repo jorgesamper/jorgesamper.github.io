@@ -1007,7 +1007,7 @@ to 	{ width:0; background:transparent; }
     width:45px;
     height:4px;  
     border-radius:3px;
-    transition: all .5s ease-in-out;
+    transition: all .1s ease-in-out;
     /* background:var(--navbar-color);    */
   
   }
