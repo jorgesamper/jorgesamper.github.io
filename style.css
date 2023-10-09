@@ -342,7 +342,7 @@ input[type="checkbox"] {
 }
 .num3{
   color:#4FCE5D; 
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .num4{
   color: #FF9C06; 
@@ -1054,6 +1054,12 @@ to 	{ width:0; background:transparent; }
   } 
   .show-nav .fifth {      
     transition: all 1.4s ease-out;
+  }
+
+  
+    .services-container {
+      gap: 1rem; 
+      padding-top: 5px;
   }
 }
 
