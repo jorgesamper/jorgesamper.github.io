@@ -345,7 +345,7 @@ input[type="checkbox"] {
 }
 .num4{
   color: #FF9C06; 
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .custom-btn {
   background-color: #0080DB; 
@@ -723,7 +723,7 @@ margin: 0 auto;
 max-width: 400px;
 }
 
-input 				{
+.input 				{
 color:#72FF7E;
 font-size:18px;
 padding:10px 20px 10px 10px;
