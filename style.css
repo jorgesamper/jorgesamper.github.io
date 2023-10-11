@@ -917,8 +917,8 @@ to 	{ width:0; background:transparent; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 7%;
-  font-size: 1.1rem;
+  padding: 15px 30px 15px 7%;
+  font-size: 1.4rem;
   background-color: RGB(29, 0, 44); 
   position: sticky;
   top: 0; 
