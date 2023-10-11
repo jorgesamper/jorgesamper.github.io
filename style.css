@@ -510,6 +510,22 @@ object-fit: contain;
    padding-top: 25px;
 }
 
+.services-words{
+  padding: 10px 6%;
+}
+.words {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 10px 20px; /* Ajusta el espaciado interior para el tamaño deseado */
+  background-color: RGB(49, 0, 72); /* Cambia el color de fondo a tu preferencia */
+  border-radius: 50px; /* Establece el radio de las esquinas redondeadas */
+  color: white;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  font-weight: bold; /* Hace que el texto sea más llamativo */
+}
+
+
 .services-container{
   width: 100%;
   margin-top: 5rem;
