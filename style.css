@@ -917,7 +917,7 @@ to 	{ width:0; background:transparent; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 30px 15px 7%;
+  padding: 15px 7%;
   font-size: 1.4rem;
   background-color: RGB(29, 0, 44); 
   position: sticky;
