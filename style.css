@@ -511,7 +511,8 @@ object-fit: contain;
 }
 
 .services-words{
-  padding: 10px 6%;
+  
+  padding: 15px 6%;
 }
 .words {
   display: inline-block;
@@ -586,7 +587,7 @@ object-fit: contain;
 }
 
 .box h3{
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   color:var(--text-color);
   margin-bottom: 15px;
@@ -845,7 +846,7 @@ to 	{ width:0; background:transparent; }
       line-height: 1;
       color: #ffffff;
       padding: 15px 6%;
-      margin-top: 55px;
+      background-color: RGB(29, 0, 44);
   }
   
 }
