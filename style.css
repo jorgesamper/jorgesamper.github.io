@@ -877,7 +877,7 @@ to 	{ width:0; background:transparent; }
   left: 0;
   width: 100%;
   background-color: var(--main-color);
-  transform: scaleX(0);
+  transform: scaleX(1);
   transition: transform 0.3s;
 }
 
