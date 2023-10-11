@@ -565,7 +565,8 @@ object-fit: contain;
 .main-text-portafolio{
   font-size: var(--second-bg-color);
   line-height: 1;
-  font-size: 2rem;
+  font-size: 1.9rem;
+  margin:45px 0;
 }
 
 
