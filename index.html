@@ -44,7 +44,7 @@
     <nav id="nav" class="navbar dark-mode" role="navigation">
         <a href="#home" class="navbar__logo">jSamper.</a>    
         <ul class="navbar__links">
-          <li class="navbar__link first"><a href="#home" class="active">Inicio</a></li>
+          <li class="navbar__link first"><a href="#home">Inicio</a></li>
           <li class="navbar__link second"><a href="#sobre-mí">Sobre mí</a></li>
           <li class="navbar__link third"><a href="#servicios">Servicios</a></li>
           <li class="navbar__link four"><a href="#proyectos">Proyectos</a></li>
@@ -546,16 +546,18 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector(".bar").style.width = scrollProgress + "%";
         });
 
-    // Obtener todos los enlaces de la lista de navegación
-const navLinks = document.querySelectorAll('.navlist a');
+//LINK ACTIVE
+
+// Obtenemos todos los enlaces de la lista de navegación
+const navLinks = document.querySelectorAll('.navbar__link a');
 
 // Agregar evento scroll para detectar cambios en la sección visible
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     // Obtener la posición actual del scroll
     const scrollPosition = window.pageYOffset;
 
     // Iterar sobre los enlaces y comprobar si la sección correspondiente está visible
-    navLinks.forEach(function(link) {
+    navLinks.forEach(function (link) {
         const target = document.querySelector(link.getAttribute('href'));
         const sectionTop = target.offsetTop;
         const sectionHeight = target.offsetHeight;
@@ -569,8 +571,9 @@ window.addEventListener('scroll', function() {
             link.classList.remove('active');
         }
     });
-    
 });
+
+
 
 
     </script>
