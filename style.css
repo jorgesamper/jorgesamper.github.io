@@ -448,7 +448,6 @@ input[type="checkbox"] {
   /* border-radius: 8px; */
 }
 
-
 .image-container img {
   position: cover;
   width: fit-content;
@@ -460,7 +459,6 @@ input[type="checkbox"] {
   line-height: 1;
   color: #ffffff;
 }
-
 
 .about-text h4{
   font-size: 24px;
@@ -507,20 +505,19 @@ height: 100%;
 object-fit: contain;
 }
 
-
 .services{
    background-color: rgb(29, 0, 44);
    padding-top: 25px;
 }
 
 .services-container{
+  width: 100%;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2.5rem;
-  padding: 10px 6%;
 }
-
 
 .main-text{
   text-decoration: center;
@@ -540,8 +537,6 @@ object-fit: contain;
 .main-text-tittle{
   text-align: center;
   margin-bottom: 30px;
-
-  
 }
 
 .main-text h2{
@@ -555,17 +550,6 @@ object-fit: contain;
   font-size: 2rem;
 }
 
-
-
-.services-content{
-  width: 100%;
-  margin-top: 5rem;
-}
-
-.services-container{
-  gap: 1.5em;
-  padding-top: 0%;
-}
 
 .box{
   background: rgb(49, 0, 72);
@@ -863,6 +847,7 @@ to 	{ width:0; background:transparent; }
   .main-text{
      
       padding:6%;
+      background: RGB(29, 0, 44);
   
   }
 }
