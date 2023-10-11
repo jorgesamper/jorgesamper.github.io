@@ -187,7 +187,7 @@ input[type="checkbox"] {
   display: flex;
   align-items: center;
   justify-content: start;
-  margin-top: -70px;
+  margin-top: -80px;
 }
 
 .home-text h1{
@@ -926,7 +926,7 @@ to 	{ width:0; background:transparent; }
   justify-content: space-between;
   padding: 13px 7%;
   font-size: 1.3rem;
-  background-color: RGB(29, 0, 44); 
+  /* background-color: RGB(29, 0, 44);  */
   position: sticky;
   top: 0; 
   z-index: 1; 
@@ -1074,7 +1074,7 @@ to 	{ width:0; background:transparent; }
 @media screen and (min-width:768px) {
   .navbar__link > a::after {
     display:block;
-    content:"";
+    /* content:""; */
     width:0;
     height:1px;
     background:var(--navbar-color);
