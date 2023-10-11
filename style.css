@@ -876,9 +876,9 @@ to 	{ width:0; background:transparent; }
 
 .navbar__link a::before,
 .navbar__link a::after {
-  content: '';
+  /* content: ''; */
   font-weight: bold;
-  position: absolute;
+  /* position: absolute; */
   bottom: -10px;
   left: 0;
   width: 100%;
@@ -908,7 +908,7 @@ to 	{ width:0; background:transparent; }
 --navbar-bg-color: #F0F0F0;  
 }
 .dark-mode {
---navbar-color: #FFF;
+--navbar-color: #cacaca;
 --navbar-bg-color: #1D002C; 
 }
 /* Navbar */
@@ -924,8 +924,8 @@ to 	{ width:0; background:transparent; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 7%;
-  font-size: 1.4rem;
+  padding: 13px 7%;
+  font-size: 1.3rem;
   background-color: RGB(29, 0, 44); 
   position: sticky;
   top: 0; 
