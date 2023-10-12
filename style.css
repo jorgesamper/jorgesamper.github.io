@@ -737,8 +737,8 @@ display:block;
 width:100%;
 border:none;
 background-color: #2e0046;
-border-bottom:1px solid #757575;
-caret-color: #72FF7E;/* Cambia el color del cursor aquí */
+/* border-bottom:1px solid #757575; */
+caret-color: #72FF7E;
 }
 
 input:focus 		{ outline:none; }
