@@ -643,6 +643,7 @@ object-fit: contain;
   .tittle-split-end {
     display: flex;
     justify-content: flex-end;
+    text-align: right;
   }
 }
 
