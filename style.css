@@ -551,7 +551,7 @@ object-fit: contain;
 .main-text p{
   color: var(--second-color);
   font-size: 15px;
-  margin-bottom: 45px 0 15px;
+  margin: 45px 0 15px;
   
 }
 
