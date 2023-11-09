@@ -630,7 +630,11 @@ object-fit: contain;
 .tittle-split{
   display: flex;
   justify-content: flex-start;
+}
 
+.tittle-split-end{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .portafolio-content{
