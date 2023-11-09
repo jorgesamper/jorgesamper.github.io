@@ -1004,7 +1004,7 @@ to 	{ width:0; background:transparent; }
     display:block;
     padding:1rem;
     font-size:1.6rem;
-    color:var( --second); 
+    color:#ffffff;
     transition: all .4s ease-in-out;
     text-align: center; /* Centrar el texto horizontalmente */
   
@@ -1040,7 +1040,7 @@ to 	{ width:0; background:transparent; }
     height:4px;
     position:absolute; 
     left:0;  
-    background: var(--second);
+    background: #ffffff;
     border-radius:3px;    
     transition: all .3s ease-in-out;
   }
