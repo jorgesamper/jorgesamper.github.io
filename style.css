@@ -1041,7 +1041,7 @@ to 	{ width:0; background:transparent; }
     height:4px;
     position:absolute; 
     left:0;  
-    background: var(--second);
+    background: #ffffff;
     border-radius:3px;    
     transition: all .3s ease-in-out;
   }
