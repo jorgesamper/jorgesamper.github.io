@@ -625,6 +625,7 @@ object-fit: contain;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 28px; 
 }
 
 .tittle-split{
@@ -635,6 +636,13 @@ object-fit: contain;
 .tittle-split-end{
   display: flex;
   justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .tittle-split-end {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 .portafolio-content{
