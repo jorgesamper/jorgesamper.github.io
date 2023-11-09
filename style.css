@@ -572,11 +572,7 @@ object-fit: contain;
 }
 
 .main-text-contacto{
-  text-decoration: center;
   padding: 108px 6%;   
-  font-size: var(--h2-font);
-  line-height: 1;
-  color: #ffffff;
 }
 
 
