@@ -537,6 +537,8 @@ object-fit: contain;
   gap: 2.5rem;
 }
 
+
+
 .main-text{
   text-decoration: center;
   padding: 10px 6%;   
@@ -567,6 +569,14 @@ object-fit: contain;
   line-height: 1;
   font-size: 1.9rem;
   margin:45px 0;
+}
+
+.main-text-contacto{
+  text-decoration: center;
+  padding: 108px 6%;   
+  font-size: var(--h2-font);
+  line-height: 1;
+  color: #ffffff;
 }
 
 
