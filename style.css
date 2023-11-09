@@ -550,7 +550,8 @@ object-fit: contain;
 .main-text p{
   color: var(--second-color);
   font-size: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 45px 0 15px;
+  
 }
 
 
@@ -727,7 +728,7 @@ margin-bottom:45px;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 0 auto;
+margin: 65px auto;
 max-width: 400px;
 }
 
