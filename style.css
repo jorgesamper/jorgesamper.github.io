@@ -746,8 +746,7 @@ margin: 65px auto;
 max-width: 400px;
 }
 
-input,
-textarea 				{
+input				{
 color:#72FF7E;
 font-size:18px;
 padding:10px 20px 10px 45px;
@@ -759,10 +758,9 @@ background-color: #2e0046;
 caret-color: #72FF7E;
 }
 
-textarea {
-  resize: vertical; 
-  height: 50px;
-}
+
+
+
 
 input:focus 		{ outline:none; }
 
