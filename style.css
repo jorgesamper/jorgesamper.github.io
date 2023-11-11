@@ -738,6 +738,11 @@ position:relative;
 margin-bottom:45px; 
 }
 
+.group-custom {
+  position:relative;
+  margin-bottom: 90px;
+}
+
 .form{
 display: flex;
 flex-direction: column;
