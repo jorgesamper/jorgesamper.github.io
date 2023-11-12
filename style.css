@@ -441,6 +441,15 @@ input[type="checkbox"] {
   padding:7%;
 }
 
+.about-image {
+  flex: 1; 
+  margin-right: 20px; /
+}
+
+.about-text {
+  flex: 2; 
+}
+
 .about-img img{
   max-width: 530px;
   height: auto;
