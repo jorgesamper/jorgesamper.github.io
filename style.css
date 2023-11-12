@@ -730,6 +730,17 @@ object-fit: contain;
 
   }
 
+
+/* GALLERIA CARRUSELL */
+
+  .gallery img {
+    height: 370px;
+    margin-right: 5px;
+  }
+
+
+
+
 .footer 	{ text-align:center; }
 /* .footer a  { color:#53B2C8; } */
 
