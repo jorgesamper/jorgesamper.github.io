@@ -738,9 +738,14 @@ position:relative;
 margin-bottom:45px; 
 }
 
-.group-custom {
+.input-custom {
   position:relative;
-  margin-bottom: 90px;
+  font-size:18px;
+  padding-bottom: 90px;
+  display:block;
+  width:100%;
+  background-color: #2e0046;
+  border:none;
 }
 
 .form{
