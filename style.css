@@ -446,6 +446,15 @@ input[type="checkbox"] {
   justify-content: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .about-image {
+    justify-content: center; 
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .about-text {
 }
 
