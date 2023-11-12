@@ -449,6 +449,11 @@ input[type="checkbox"] {
 .about-text {
 }
 
+.about-digital-skills{
+  margin:0 6%;
+  background-color: RGB(29, 0, 44);
+
+}
 .about-img img{
   max-width: 530px;
   height: auto;
