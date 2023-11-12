@@ -452,7 +452,14 @@ input[type="checkbox"] {
 .about-digital-skills{
   padding:0 6%;
   background-color: RGB(29, 0, 44);
+}
 
+.about-digital-skills h4{
+  font-size: 24px;
+  font-weight: 600;
+  color:var(--text-color);
+  line-height: 1.7;
+  margin: 15px 0 30px;
 }
 .about-img img{
   max-width: 530px;
