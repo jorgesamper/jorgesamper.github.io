@@ -428,26 +428,25 @@ input[type="checkbox"] {
   padding: 12px 15%;
 }
 
-.about{
- 
-  grid-template-columns: repeat(2, 1fr);
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Dos columnas iguales */
   align-items: center;
   gap: 1.5rem;
+  background-color: RGB(29, 0, 44);
   /* background-image: url(img/Sobre\ mi.jpg); */
-  background-color:RGB(29, 0, 44) ;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  padding:7%;
+  padding: 7%;
 }
 
 .about-image {
-  flex: 1; 
-  margin-right: 20px; /
+  width: 100%;
+  height:auto;
 }
 
 .about-text {
-  flex: 2; 
 }
 
 .about-img img{
