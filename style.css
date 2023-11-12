@@ -841,7 +841,7 @@ animation:inputHighlighter 0.3s ease;
 }
 
 /* footer */
-.footer__copy {
+.footer { 
   text-align: center; 
   font-weight: 200;
   background-color: rgb(29, 0, 44); 
