@@ -731,7 +731,7 @@ object-fit: contain;
   }
 
 .footer 	{ text-align:center; }
-.footer a  { color:#53B2C8; }
+/* .footer a  { color:#53B2C8; } */
 
 /* form starting stylings ------------------------------- */
 .group 			  { 
