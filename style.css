@@ -457,7 +457,7 @@ input[type="checkbox"] {
     margin-right: auto;
     padding: 7%;
   }
-  
+
   .about-image {
     justify-content: center; 
     position: relative;
@@ -479,7 +479,7 @@ input[type="checkbox"] {
   font-weight: 600;
   color:var(--text-color);
   line-height: 1.7;
-  margin: 15px 0 30px;
+  margin-bottom: 30px;
 }
 .about-img img{
   max-width: 530px;
