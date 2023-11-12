@@ -1017,11 +1017,12 @@ to 	{ width:0; background:transparent; }
   justify-content: space-between;
   padding: 13px 7%;
   font-size: 1.4rem;
-  background-color: RGB(29, 0, 44, 0.1);
+  background-color: rgba(29, 0, 44, 0.1);
   position: sticky;
   top: 0; 
   z-index: 1; 
   backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .navbar__links { 
