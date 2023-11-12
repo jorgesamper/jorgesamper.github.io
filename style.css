@@ -536,6 +536,7 @@ object-fit: contain;
   flex-direction: column;
   align-items: flex-start;
   gap: 2.5rem;
+  align-items: center;
 }
 
 
@@ -766,6 +767,7 @@ border:none;
 background-color: #2e0046;
 /* border-bottom:1px solid #757575; */
 caret-color: #72FF7E;
+padding-left: 20px;
 }
 
 
@@ -956,7 +958,7 @@ to 	{ width:0; background:transparent; }
   align-items: center;
   justify-content: space-between;
   padding: 13px 7%;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   background-color: RGB(29, 0, 44, 0.1);
   position: sticky;
   top: 0; 
