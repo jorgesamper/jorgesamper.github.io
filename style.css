@@ -447,7 +447,18 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 767px) {
+
   .about {
+    align-items: center;
+    gap: 1.5rem;
+    background-color: RGB(29, 0, 44);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7%;
+  }
+  
+  .about-image {
     justify-content: center; 
     position: relative;
     display: flex;
