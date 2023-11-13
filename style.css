@@ -692,12 +692,14 @@ object-fit: contain;
 }
 
 .portafolio-content{
+  white-space: nowrap;
+  overflow-x: auto;
   display: flex;
+  gap: 16px;
   /* grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center; */
-  flex-direction: row;
-  overflow-x: auto;
-  gap: 16px;
+  /* flex-direction: row; */
+  
 }
 
 .row{
@@ -709,6 +711,7 @@ object-fit: contain;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 16px;
 }
 
 .row img{
