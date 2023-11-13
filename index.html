@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!--animated-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS Animated -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -123,7 +125,7 @@
 <section>
     <div class="about-digital-skills">
         <h4 class="animate__animated animate__hinge">Digital Skills</h4>
-        <div class="logo-grid">
+        <div data-aos="hinge" class="logo-grid">
             <figure class="logo" alt="React.js"><svg viewBox="0 0 128 128" width="50%" height="100%">
                     <g fill="#61DAFB">
                         <circle cx="64" cy="64" r="11.4"></circle>
@@ -655,13 +657,17 @@
 
     <!--custom js-->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
+    <!-- animated -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
     <script>
+
+        AOS.init();
+
 
         function redirectToProyectos() {
             // Cambia la ubicación actual de la página al destino deseado
