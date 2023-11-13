@@ -710,7 +710,7 @@ object-fit: contain;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 16px;
+  
 }
 
 .row img{
