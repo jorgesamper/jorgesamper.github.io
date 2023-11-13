@@ -693,7 +693,7 @@ object-fit: contain;
 
 .portafolio-content{
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: hidden;
   display: flex;
   /* grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center; */
