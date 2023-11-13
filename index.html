@@ -674,13 +674,6 @@
 
         AOS.init();
 
-        // Controlador de eventos de desplazamiento para la galería de imágenes
-        window.addEventListener('wheel', function (e) {
-            if (e.deltaY !== 0) {
-                e.preventDefault();
-                document.querySelector('.portafolio-content').scrollLeft += e.deltaY;
-            }
-
 
             function redirectToProyectos() {
                 // Cambia la ubicación actual de la página al destino deseado

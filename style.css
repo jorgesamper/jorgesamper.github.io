@@ -695,6 +695,7 @@ object-fit: contain;
   white-space: nowrap;
   overflow-x: hidden;
   display: flex;
+  width: 100%;
   /* grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center; */
   /* flex-direction: row; */
