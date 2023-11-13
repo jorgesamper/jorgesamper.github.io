@@ -695,7 +695,6 @@ object-fit: contain;
   white-space: nowrap;
   overflow-x: auto;
   display: flex;
-  gap: 16px;
   /* grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center; */
   /* flex-direction: row; */
@@ -722,6 +721,7 @@ object-fit: contain;
 
   max-height: 100%;
   height: auto; 
+  object-fit: cover;
 
 }
 
