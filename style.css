@@ -692,12 +692,16 @@ object-fit: contain;
 }
 
 .portafolio-content{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-  align-items: center;
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  align-items: center; */
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 16px;
 }
 
 .row{
+  flex: 0 0 auto;
   position:relative;
   overflow: hidden;
   /* border-radius: 8px; */
@@ -714,7 +718,7 @@ object-fit: contain;
   transition: transform 0.5s;
 
   max-height: 100%;
-  height: auto; /* Ajusta la altura automáticamente */
+  height: auto; 
 
 }
 
