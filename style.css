@@ -438,7 +438,7 @@ input[type="checkbox"] {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  padding: 7%;
+  padding: 3% 7%;
 }
 
 .about-image {
