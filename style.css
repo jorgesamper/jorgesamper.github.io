@@ -219,6 +219,7 @@ input[type="checkbox"] {
   font-size:var(--p-font);
   line-height: 1.8;
   margin-bottom: 40px;
+  margin-right: 20px;
 }
 
 .slide{
@@ -712,6 +713,7 @@ object-fit: contain;
   justify-content: center;
   align-items: center;
   margin-right: 10px; 
+  background-color: transparent;
 }
 
 .row:last-child {
