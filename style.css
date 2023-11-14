@@ -699,6 +699,8 @@ object-fit: contain;
   width: 100%;
   scrollbar-width: none; /* Oculta la barra de desplazamiento en Firefox */
   -ms-overflow-style: none; /* Oculta la barra de desplazamiento en Internet Explorer y Edge */
+  scroll-behavior: smooth; /* Agrega un desplazamiento suave al hacer scroll */
+
 }
 
 .portafolio-content::-webkit-scrollbar {
@@ -714,7 +716,6 @@ object-fit: contain;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px; 
   background-color: transparent;
 }
 
