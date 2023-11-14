@@ -724,7 +724,7 @@ object-fit: contain;
   display: block;
   transition: transform 0.5s;
   max-height: 100%;
-  height: 60vh; 
+  height: 67vh; 
   object-fit: cover;
 }
 
