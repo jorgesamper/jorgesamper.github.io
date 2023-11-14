@@ -693,7 +693,7 @@ object-fit: contain;
 
 .portafolio-content{
   white-space: nowrap;
-  overflow-x: hidden;
+  overflow-x: auto;
   display: flex;
   width: 100%;
   /* grid-template-columns: repeat(auto-fit, minmax(350px, auto));
@@ -711,7 +711,11 @@ object-fit: contain;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  margin-right: 10px; 
+}
+
+.row:last-child {
+  margin-right: 0; /* Elimina el margen derecho de la última imagen para evitar espacio extra */
 }
 
 .row img{
