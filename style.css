@@ -501,7 +501,7 @@ input[type="checkbox"] {
   font-size: var(--h2-font);
   line-height: 1;
   color: #ffffff;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .about-text h4{
@@ -723,11 +723,9 @@ object-fit: contain;
   /* border-radius: 8px; */
   display: block;
   transition: transform 0.5s;
-
   max-height: 100%;
-  height: auto; 
+  height: 60vh; 
   object-fit: cover;
-
 }
 
 .row:hover img{
