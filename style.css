@@ -180,7 +180,7 @@ input[type="checkbox"] {
   height: 100vh;
   width: 100%;
   padding-left:6%; 
-  /* background-image:url(); */
+  background-image:url(img/Background\ Home.png);
   background-color: rgb(29, 0, 44);
   background-size: cover;
   background-position: center;
