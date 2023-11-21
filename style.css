@@ -802,6 +802,10 @@ object-fit: contain;
 .footer 	{ text-align:center; }
 /* .footer a  { color:#53B2C8; } */
 
+.bx {
+  color: white;
+}
+
 /* form starting stylings ------------------------------- */
 .group 			  { 
 position:relative; 
