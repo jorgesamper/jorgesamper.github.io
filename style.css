@@ -802,10 +802,6 @@ object-fit: contain;
 .footer 	{ text-align:center; }
 /* .footer a  { color:#53B2C8; } */
 
-.icon-link i {
-  color: white;
-  font-size: 24px; 
-}
 
 /* form starting stylings ------------------------------- */
 .group 			  { 
@@ -921,13 +917,13 @@ animation:inputHighlighter 0.3s ease;
   text-align: center; 
   font-weight: 200;
   background-color: rgb(29, 0, 44); 
-  color: #ccc; 
   padding: 10px; 
 }
 
 .footer a {
   margin: 15px; 
-  color: #72ff7e;
+  color: #ffffff;
+  font-size: 26px;
 }
 
 /* ANIMATIONS ================ */
