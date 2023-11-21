@@ -802,8 +802,9 @@ object-fit: contain;
 .footer 	{ text-align:center; }
 /* .footer a  { color:#53B2C8; } */
 
-.bx {
+.icon-link i {
   color: white;
+  font-size: 24px; 
 }
 
 /* form starting stylings ------------------------------- */
