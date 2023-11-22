@@ -699,15 +699,13 @@ object-fit: contain;
   overflow-x: auto;
   display: flex;
   width: 100%;
-  scrollbar-width: none; /* Oculta la barra de desplazamiento en Firefox */
-  -ms-overflow-style: none; /* Oculta la barra de desplazamiento en Internet Explorer y Edge */
-  scroll-behavior: smooth; /* Agrega un desplazamiento suave al hacer scroll */
+  /* scrollbar-width: none; Oculta la barra de desplazamiento en Firefox
+  -ms-overflow-style: none; Oculta la barra de desplazamiento en Internet Explorer y Edge
+  scroll-behavior: smooth; Agrega un desplazamiento suave al hacer scroll */
 }
 
-
-
 .portafolio-content::-webkit-scrollbar {
-  display: none; /* Oculta la barra de desplazamiento en WebKit (Chrome, Safari, etc.) */
+  display: none;
 }
 
 .row{
