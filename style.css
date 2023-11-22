@@ -1017,7 +1017,7 @@ to 	{ width:0; background:transparent; }
 --navbar-bg-color: #F0F0F0;  
 }
 .dark-mode {
---navbar-color: #cacaca;
+--navbar-color: #f2f2f2;
 --navbar-bg-color: #1D002C; 
 }
 /* Navbar */
