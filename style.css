@@ -1146,7 +1146,7 @@ to 	{ width:0; background:transparent; }
     height:4px;  
     border-radius:3px;
     transition: all .1s ease-in-out;
-    /* background:var(--navbar-color);    */
+    background:var(--navbar-color);  
   
   }
   .bar::before, .bar::after {
