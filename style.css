@@ -722,23 +722,6 @@ object-fit: contain;
 }
 
 
-/* Flechas */
-.portafolio-content::before,
-.portafolio-content::after {
-  content: '\2190'; /* Flecha izquierda Unicode */
-  font-size: 24px;
-  color: #333;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  z-index: 2;
-}
-
-.portafolio-content::after {
-  content: '\2192'; /* Flecha derecha Unicode */
-  right: 0;
-}
 
 .row:last-child {
   margin-right: 0; /* Elimina el margen derecho de la última imagen para evitar espacio extra */
@@ -755,7 +738,7 @@ object-fit: contain;
 }
 
 .row:hover img{
-  transform:scale(1.1);
+  transform:scale(1.05);
 }
 
 .row:hover .layer{
