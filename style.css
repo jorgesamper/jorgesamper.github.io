@@ -702,8 +702,9 @@ object-fit: contain;
   scrollbar-width: none; /* Oculta la barra de desplazamiento en Firefox */
   -ms-overflow-style: none; /* Oculta la barra de desplazamiento en Internet Explorer y Edge */
   scroll-behavior: smooth; /* Agrega un desplazamiento suave al hacer scroll */
-
 }
+
+
 
 .portafolio-content::-webkit-scrollbar {
   display: none; /* Oculta la barra de desplazamiento en WebKit (Chrome, Safari, etc.) */
@@ -714,11 +715,40 @@ object-fit: contain;
   position:relative;
   overflow: hidden;
   /* border-radius: 8px; */
+  min-width: 100%;
   cursor:pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
+}
+
+.row:hover {
+  background-color: #e0e0e0; 
+}
+
+/* desplazamiento a la izquierda */
+.portafolio-content.scroll-left::before {
+  content: '\2190'; /* Flecha izquierda Unicode */
+  font-size: 24px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* desplazamiento a la derecha */
+.portafolio-content.scroll-right::after {
+  content: '\2192'; /* Flecha derecha Unicode */
+  font-size: 24px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .row:last-child {
