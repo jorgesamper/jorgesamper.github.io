@@ -721,9 +721,6 @@ object-fit: contain;
   background-color: transparent;
 }
 
-.row:hover {
-  background-color: #e0e0e0; 
-}
 
 /* Flechas */
 .portafolio-content::before,
@@ -763,6 +760,24 @@ object-fit: contain;
 
 .row:hover .layer{
   height: 100%;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.arrow-left {
+  left: 0;
+}
+
+.arrow-right {
+  right: 0;
 }
 
 .image-container {
