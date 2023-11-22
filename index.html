@@ -41,7 +41,7 @@
 <body>
     <!-- ON SCROLL  -->
     <div class="progress">
-        <span class="bar"></span>
+        <span class="progress-bar"></span>
     </div>
 
     <nav id="nav" class="navbar dark-mode" role="navigation">
@@ -808,7 +808,11 @@
             const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
             const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrollProgress = (scrollTop / scrollHeight) * 100;
-            document.querySelector(".bar").style.width = scrollProgress + "%";
+
+            const progressBar = document.querySelector(".progress .progress-bar");
+            if (progressBar) {
+                progressBar.style.width = scrollProgress + "%";
+            }
         });
 
         //LINK ACTIVE
