@@ -12,7 +12,7 @@
   --bg-color: #2a2a2a;
   --second-bg-color: #202020;
   --text-color: #72ff7e;
-  --second-color: #ccc;
+  --second-color: #a1a1a1;
   --main-color: #ff1aec;
   --big-font: 5rem;
   --h2-font: 3rem;
@@ -470,8 +470,6 @@ input[type="checkbox"] {
   }
 }
 
-.about-text {
-}
 
 .about-digital-skills{
   padding:0 6%;
@@ -507,7 +505,7 @@ input[type="checkbox"] {
 
 .about-text h4{
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 300;
   color:var(--text-color);
   line-height: 1.7;
   margin: 15px 0 30px;
@@ -672,6 +670,10 @@ object-fit: contain;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 28px; 
+}
+
+.white-text {
+  color: white;
 }
 
 .tittle-split{
