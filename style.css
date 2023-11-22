@@ -76,7 +76,7 @@
   display: block; /* Mostrar la barra de progreso cuando está activa */
 }
 
-.bar {
+.progress-bar {
   display: block;
   height: 100%;
   width: 0;
