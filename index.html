@@ -81,6 +81,13 @@
                 </a>
             </div>
 
+            <!-- Formulario oculto para ingresar el nombre en dispositivos móviles -->
+            <form id="nameForm" style="display: none;">
+                <label for="nombre">¿Cuál es tu nombre?</label>
+                <input type="text" id="nombre" />
+                <button type="button" onclick="submitForm()">Enviar</button>
+            </form>
+
     </section>
 
     <section id="bottom-section" style="position: absolute; bottom: 0px; width: 100%;">
@@ -686,16 +693,35 @@
             window.location.href = "#proyectos3D";
         }
 
-    //  Alert ¿we talk?
+        //  ALERT ¿WE TALK?
 
         const hablamosBtn = document.getElementById("hablamosBtn");
+        const nameForm = document.getElementById("nameForm");
 
         hablamosBtn.onclick = function () {
-            let name = prompt("¿Cuál es tu nombre?");
-            alert("¡Hola " + name + ", bienvenido a mi portafolio!! Aquí encontrarás algunos de mis proyectos... Si quieres saber más sobre mí ponte en contacto");
+            // Verificamos si estamos en un dispositivo móvil
+            const isMobile = window.matchMedia("only screen and (max-width: 767px)").matches;
+
+            if (isMobile) {
+                // Mostramos formulario en dispositivos móviles
+                nameForm.style.display = "block";
+            } else {
+                // En ordenadores, utilizamos prompt
+                let name = prompt("¿Cuál es tu nombre?");
+                alert("¡Hola " + name + ", BIENVENIDO!! Aquí encontrarás algunos de mis proyectos... Si quieres saber más sobre mí ponte en contacto ⇩");
+            }
         };
 
-    //  MENU RESPONSIVE
+        // Función para enviar el formulario en dispositivos móviles
+        function submitForm() {
+            let name = document.getElementById("nombre").value;
+            alert("¡Hola " + name + ", BIENVENIDO!! Aquí encontrarás algunos de mis proyectos... Si quieres saber más sobre mí ponte en contacto ⇩");
+
+            // Ocultamos el formulario después de enviar
+            nameForm.style.display = "none";
+        }
+
+        //  MENU RESPONSIVE
 
         function toggleMenu() {
             const navbar = document.querySelector('.navbar');
