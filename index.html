@@ -72,7 +72,7 @@
             <p>Diseño y Desarrollo <span class="typed"></span></p>
 
             <div class="button">
-                <a href="#contacto" class="btn" style="color:#ffffff">¿Hablamos?</a>
+                <a href="#" class="btn" style="color:#ffffff" id="hablamosBtn">¿Hablamos?</a>
                 <audio id="audio" src="img/music/3182.mp3"></audio>
                 <a class="btn2" id="btn2" onclick="playPause()">
                     <span class="shadow-pause" id="playPauseBTN">
@@ -686,7 +686,17 @@
             window.location.href = "#proyectos3D";
         }
 
-        //  MENU RESPONSIVE
+    //  Alert ¿we talk?
+
+        const hablamosBtn = document.getElementById("hablamosBtn");
+
+        hablamosBtn.onclick = function () {
+            let name = prompt("¿Cuál es tu nombre?");
+            alert("¡Hola " + name + ", bienvenido a mi protafolio!! Aquí podrás encontrar algunos de mis proyectos... Si quieres saber más sobre mí ponte en contacto");
+        };
+
+    //  MENU RESPONSIVE
+
         function toggleMenu() {
             const navbar = document.querySelector('.navbar');
             const burger = document.querySelector('.burger');
@@ -704,22 +714,6 @@
 
         }
         toggleMenu();
-
-        //  BOTON TOOGLEEE
-        //    document.addEventListener("DOMContentLoaded", function () {
-        //   let button = document.querySelector(".button-toogle");
-        //   let checkbox = document.querySelector(".checkbox");
-
-        //   button.addEventListener("click", function () {
-        //     checkbox.checked = !checkbox.checked; // Cambiar el estado del checkbox
-
-        //     if (checkbox.checked) {
-        //       document.body.classList.add("theme");
-        //     } else {
-        //       document.body.classList.remove("theme");
-        //     }
-        //   });
-        // });
 
         //Changing-Phrase*
 
@@ -746,6 +740,7 @@
 
 
         // Scroll to Top
+
         document.addEventListener("DOMContentLoaded", function () {
             const scrollToTopButton = document.getElementById("scrollToTopBtn");
             const serviciosSection = document.getElementById("servicios");
@@ -776,15 +771,8 @@
         1 / 2
 
 
-
-
-
-
-
-
-
-
         // button music
+
         var audio = document.getElementById("audio");
         var playPauseBTN = document.getElementById("playPauseBTN");
 
