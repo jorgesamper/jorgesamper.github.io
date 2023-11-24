@@ -315,8 +315,6 @@
 
 
 
-
-
     <!--SERVICES section design-->
     <section class="services" id="servicios">
         <div data-aos="zoom-in-down" class="main-text">
@@ -430,9 +428,6 @@
                 <a style="color: white;">Desgin System</a>
             </div>
 
-
-
-
         </div>
     </section>
 
@@ -467,11 +462,7 @@
         </div>
 
 
-
-
-
-
-        <!-- PROYECTO 2  -->
+    <!-- PROYECTO 2  -->
         <div class="right">
 
             <div class="main-text-portafolio ">
@@ -689,19 +680,11 @@
         //  ALERT ¿WE TALK?
 
         const hablamosBtn = document.getElementById("hablamosBtn");
-        const nameForm = document.getElementById("nameForm");
 
         hablamosBtn.onclick = function () {
-            nameForm.style.display = "block";
-        };
-
-        function submitForm() {
-            let name = document.getElementById("nombre").value;
-            alert("¡Hola " + name + ", BIENVENIDO!! Aquí encontrarás algunos de mis proyectos... Si quieres saber más sobre mí ponte en contacto 📩");
-
-            // Ocultamos el formulario después de enviar
-            nameForm.style.display = "none";
-        }
+        let name = prompt("¿Cuál es tu nombre?");
+        alert("¡Hola " + name + ", BIENVENIDO!! Aquí encontrarás algunos de mis proyectos... Si quieres saber más sobre mí, no dudes en ponerte en contacto 📩");
+    };
 
         //  MENU RESPONSIVE
 
