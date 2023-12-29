@@ -616,6 +616,17 @@ object-fit: contain;
   margin:45px 0;
 }
 
+@media screen and (min-width: 769px) {
+  #proyectos3D {
+      display: block; /* o cualquier otro estilo que desees aplicar */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #proyectos3D {
+      display: none; /* Ocultar la sección en dispositivos móviles */
+  }
+}
 
 .box{
   background: rgb(49, 0, 72);
