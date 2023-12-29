@@ -331,7 +331,6 @@ input[type="checkbox"] {
   box-shadow: 0 0px 28px 0px #ff1aec;
 }
 
-
 .num1{
   color:#0080DB;
   margin-right: 10px;
@@ -470,7 +469,6 @@ input[type="checkbox"] {
   }
 }
 
-
 .about-digital-skills{
   padding:0 6%;
   background-color: RGB(29, 0, 44);
@@ -569,8 +567,6 @@ object-fit: contain;
   font-weight: bold; /* Hace que el texto sea más llamativo */
 }
 
-
-
 .services-container{
   width: 100%;
   margin-top: 5rem;
@@ -580,7 +576,6 @@ object-fit: contain;
   gap: 2.5rem;
   align-items: center;
 }
-
 
 
 .main-text{
@@ -615,7 +610,6 @@ object-fit: contain;
   font-size: 1.9rem;
   margin:45px 0;
 }
-
 
 
 .box{
@@ -702,8 +696,6 @@ object-fit: contain;
 .portafolio-content {
   display: flex;
   overflow-x: auto;
-  /* margin-left: 7%;
-  margin-right: 7%; */
   position: relative;
   scroll-snap-type: x mandatory; 
 }
@@ -720,15 +712,14 @@ object-fit: contain;
 }
 
 .row img {
-  max-width: 100%; /* Ajusta para que las imágenes no se vuelvan más grandes que su tamaño original */
+  max-width: 100%; 
   max-height: 100%;
   width: auto;
   height: auto;
-  object-fit: contain; /* Cambiado a contain para ajustar la imagen sin distorsionar */
+  object-fit: contain; 
   transition: transform 0.5s;
 }
 
-/* Elimina la regla de estilo :hover para las imágenes */
 .row:hover img {
   transform: none;
 }
@@ -737,27 +728,28 @@ object-fit: contain;
   margin-right: 0;
 }
 
-/* Estilos para la barra de desplazamiento */
+/* Barra de desplazamiento */
 .portafolio-content::-webkit-scrollbar {
-  width: 55px; /* Ancho de la barra de desplazamiento */
+  width: 10px; 
+  height: 40px; 
   max-width: 50px; 
 }
 
-/* Fondo de la barra de desplazamiento */
+/* Fondo */
 .portafolio-content::-webkit-scrollbar-track {
-  background-color:#14001f; /* Cambia al color que desees (en este caso, blanco) */
+  background-color:#14001f; 
   border-radius: 10px; 
 }
 
-/* Estilo del indicador de desplazamiento */
+/* Indicador de desplazamiento */
 .portafolio-content::-webkit-scrollbar-thumb {
-  background-color: #ffffff; /* Cambia al color que desees para el indicador */
-  border-radius: 10px; /* Ajusta el radio de los bordes */
+  background-color: #ffffff; 
+  border-radius: 10px;
 }
 
-/* Cambia el color de fondo al hacer hover sobre la barra de desplazamiento */
+/* Hover sobre la barra de desplazamiento */
 .portafolio-content::-webkit-scrollbar-thumb:hover {
-  background-color: #c900bf; /* Cambia al color que desees para el hover */
+  background-color: #c900bf; 
 }
 
 
