@@ -811,10 +811,12 @@ object-fit: contain;
     }
 
     .img4{
-      height: 400px;
-      display: flex;
-      justify-content: center; 
-      align-items: center; 
+      height: 380px;
+      width: auto;
+      transition: transform 0.3s ease;
+      display: block; 
+      margin: 0 auto; 
+      object-fit: cover; 
     }
 
   }
