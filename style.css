@@ -492,7 +492,7 @@ input[type="checkbox"] {
 }
 
 .about-digital-skills {
-  padding: 0 7%;
+  padding: 20px 7%;
   background-color: RGB(29, 0, 44);
 }
 
@@ -574,6 +574,7 @@ input[type="checkbox"] {
 
 .services {
   background-color: rgb(29, 0, 44);
+  
   padding-top: 25px;
 }
 
@@ -594,7 +595,7 @@ input[type="checkbox"] {
 }
 
 .services-words {
-  padding: 0 6%;
+  padding: 25px 6%;
   text-align: center;
 }
 
@@ -629,6 +630,12 @@ input[type="checkbox"] {
   font-size: var(--h2-font);
   line-height: 1;
   color: #ffffff;
+  background-color: rgb(29, 0, 44);
+    background: linear-gradient(to bottom right, rgb(29, 0, 44), transparent);
+
+    /* Círculo difuminado en la esquina inferior derecha */
+    background: radial-gradient(circle at 100% 70%,  rgb(42, 0, 59), rgba(20, 0, 31, 0.979));
+
 }
 
 .main-text p {
@@ -1110,6 +1117,11 @@ input:focus~.highlight {
 
     padding: 6%;
     background: RGB(29, 0, 44);
+    background-color: rgb(29, 0, 44);
+    background: linear-gradient(to bottom right, rgb(29, 0, 44), transparent);
+
+    /* Círculo difuminado en la esquina inferior derecha */
+    background: radial-gradient(circle at 100% 70%,  rgb(42, 0, 59), rgba(20, 0, 31, 0.979));
 
   }
 }
