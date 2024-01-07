@@ -772,11 +772,14 @@ input[type="checkbox"] {
   justify-content: center;
   background-color: transparent;
   scroll-snap-align: start;
+  height: 575px; 
+
 
 }
 
 .row img {
-  height: 475px; 
+  height: 100%; 
+
   width: 100%; 
   object-fit: contain; 
 
