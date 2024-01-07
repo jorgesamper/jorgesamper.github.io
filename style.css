@@ -1205,6 +1205,8 @@ input:focus~.highlight {
 
 /*  Small device */
 @media screen and (max-width: 767.98px) {
+
+  
   .navbar__links {
     overflow: hidden;
     display: flex;
@@ -1220,8 +1222,6 @@ input:focus~.highlight {
     transform: translateX(110%);
     transition: all 0.5s ease-in-out;
     z-index: 1;
-    padding: 10px;
-    border-radius: 8px;
   }
 
   .show-nav .navbar__links {
