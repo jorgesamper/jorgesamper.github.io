@@ -776,12 +776,12 @@ input[type="checkbox"] {
 }
 
 .row img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  height: 475px; 
+  width: 100%; 
+  object-fit: contain; 
+
   transition: transform 0.5s;
+  overflow: hidden;
 }
 
 .row:hover img {
