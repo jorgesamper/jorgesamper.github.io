@@ -563,9 +563,7 @@ object-fit: contain;
 }
 
 .services-words {
-  
-  
-  padding: 20px;
+  padding: 6%;
   text-align: center;
 }
 
@@ -648,6 +646,7 @@ object-fit: contain;
 .box h3{
   font-size: 30px;
   font-weight: 600;
+  text-align: center;
   color:var(--text-color);
   margin-bottom: 15px;
 }
@@ -664,6 +663,16 @@ object-fit: contain;
   color: rgb(174, 0, 255);
   font-size: 20px; 
   
+}
+
+.s-icons {
+  text-align: center;
+}
+
+.s-icons i {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 .s-icons i{
   font-size: 45px;
