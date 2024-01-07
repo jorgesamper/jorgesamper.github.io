@@ -772,7 +772,7 @@ input[type="checkbox"] {
   justify-content: center;
   background-color: transparent;
   scroll-snap-align: start;
-  height: 425px; 
+  height: 525px; 
   object-fit: cover;
 
 
@@ -782,7 +782,7 @@ input[type="checkbox"] {
   height: 100%; 
 
   width: 100%; 
-  object-fit: contain; 
+  object-fit: cover; 
 
   transition: transform 0.5s;
   overflow: hidden;
