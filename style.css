@@ -379,7 +379,7 @@ input[type="checkbox"] {
 .custom-btn:hover {
   transform: scale(0.9);
   transform: translateY(-5px);
-  box-shadow: 0 0px 35px 0px #0080DB;
+  box-shadow: 0 10px 35px 10px #0080DB;
 }
 
 
@@ -896,6 +896,31 @@ input[type="checkbox"] {
     margin: 0 auto;
     object-fit: cover;
   }
+
+  .row {
+    flex: 0 0 auto;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    scroll-snap-align: start;
+    object-fit: cover;
+    height:220px;
+  
+  
+  }
+  
+  .row img {
+    height: 100%; 
+  
+    width: 100%; 
+    object-fit: cover; 
+  
+    transition: transform 0.5s;
+    overflow: hidden;
+  }
+
 
 }
 
