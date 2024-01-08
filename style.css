@@ -1217,6 +1217,10 @@ input:focus~.highlight {
   font-weight: 700;
 }
 
+.navbar__logo:hover {
+  color: #72ff7e
+}
+
 
 .navbar {
   display: flex;
