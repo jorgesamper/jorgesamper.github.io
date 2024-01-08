@@ -194,7 +194,7 @@ input[type="checkbox"] {
   display: flex;
   align-items: center;
   justify-content: start;
-  margin-top: -95px;
+  margin-top: -87px;
 }
 
 @media only screen and (min-width: 768px) {
