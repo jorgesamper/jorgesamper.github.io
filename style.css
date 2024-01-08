@@ -465,6 +465,12 @@ input[type="checkbox"] {
 .about-image {
   height: auto;
   justify-content: center;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  image-rendering: -webkit-optimize-contrast; /* Safari/Chrome */
+  image-rendering: optimizeQuality; /* Standard */
 }
 
 @media only screen and (max-width: 767px) {
