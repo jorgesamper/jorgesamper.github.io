@@ -1253,6 +1253,9 @@ input:focus~.highlight {
 @media screen and (max-width: 767.98px) {
 
 
+
+
+
   .navbar__links {
     overflow: hidden;
     display: flex;
@@ -1302,6 +1305,18 @@ input:focus~.highlight {
   .navbar__link>a:hover {
     padding-left: 2rem;
     letter-spacing: 5px;
+  }
+
+
+
+
+  .navbar {
+    /* Agrega estilos generales del navbar aquí */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-hidden {
+    transform: translateY(-100%);
   }
 
   /* Toggle menu */

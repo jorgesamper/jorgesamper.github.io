@@ -1,6 +1,26 @@
 
 AOS.init();
 
+// navbar out scroll  
+
+let lastScrollTop = 0;
+const navbar = document.getElementById("nav");
+const navbarHeight = navbar.offsetHeight;
+
+window.addEventListener("scroll", () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // Scrolling hacia abajo
+    navbar.classList.add("navbar-hidden");
+  } else {
+    // Scrolling hacia arriba
+    navbar.classList.remove("navbar-hidden");
+  }
+
+  lastScrollTop = scrollTop;
+});
+
 
 function redirectToProyectos() {
     // Cambia la ubicación actual de la página al destino deseado
