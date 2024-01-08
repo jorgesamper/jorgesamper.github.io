@@ -291,7 +291,6 @@ input[type="checkbox"] {
   color: #ffffff;
   font-size: 1rem;
   letter-spacing: 1px;
-  font-weight: 600;
   transition: all .35s ease;
 }
 
@@ -772,8 +771,8 @@ input[type="checkbox"] {
   justify-content: center;
   background-color: transparent;
   scroll-snap-align: start;
-  height: 525px; 
   object-fit: cover;
+  height:325px;
 
 
 }
