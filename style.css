@@ -233,7 +233,7 @@ input[type="checkbox"] {
 .home-text p {
   color: var(--second-color);
   font-size: var(--p-font);
-  line-height: 1.8;
+  /* line-height: 1.8; */
   margin-bottom: 40px;
   margin-right: 20px;
 }
@@ -767,6 +767,7 @@ input[type="checkbox"] {
 .custom-row {
   flex: 0 0 auto;
   position: relative;
+  bottom: 0;
   cursor: pointer;
   display: flex;
   justify-content: center;
