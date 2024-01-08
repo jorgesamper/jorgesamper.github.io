@@ -915,7 +915,8 @@ input[type="checkbox"] {
     justify-content: center;
     background-color: transparent;
     scroll-snap-align: start;
-    height:220px;
+    object-fit: cover; 
+    height:225px;
   }
   
   .row img {
