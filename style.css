@@ -763,6 +763,18 @@ input[type="checkbox"] {
   scroll-snap-type: x mandatory;
 }
 
+
+.custom-row {
+    flex: 0 0 auto;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
 .row {
   flex: 0 0 auto;
   position: relative;
@@ -773,8 +785,6 @@ input[type="checkbox"] {
   scroll-snap-align: start;
   object-fit: cover;
   height:325px;
-
-
 }
 
 .row img {
@@ -905,18 +915,13 @@ input[type="checkbox"] {
     justify-content: center;
     background-color: transparent;
     scroll-snap-align: start;
-    object-fit: cover;
     height:220px;
-  
-  
   }
   
   .row img {
     height: 100%; 
-  
     width: 100%; 
     object-fit: cover; 
-  
     transition: transform 0.5s;
     overflow: hidden;
   }
@@ -927,10 +932,7 @@ input[type="checkbox"] {
 
 /* GALLERIA CARRUSELL */
 
-.gallery img {
-  height: 370px;
-  margin-right: 5px;
-}
+
 
 
 
