@@ -981,6 +981,7 @@ input[type="checkbox"] {
 
 input {
   color: #72FF7E;
+  border-radius: 10px;
   font-size: 18px;
   padding: 10px 70px 10px 45px;
   display: block;
