@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  background-color:#72ff7e; 
+}
+
 :root {
   --bg-color: #2a2a2a;
   --second-bg-color: #202020;
@@ -24,10 +28,6 @@
   --second: #ffffff;
   --third: #1b1b1b;
   --four: blue;
-}
-
-.html {
-  background-color:#72ff7e; 
 }
 
 .Typed {
