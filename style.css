@@ -26,6 +26,10 @@
   --four: blue;
 }
 
+.html {
+  background-color:#72ff7e; 
+}
+
 .Typed {
   color: white;
   /* Cambia el color del texto a blanco */
