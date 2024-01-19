@@ -35,11 +35,18 @@ function redirectToProyectos3D() {
 //  ALERT ¿WE TALK?
 
 const hablamosBtn = document.getElementById("hablamosBtn");
+const modal = document.getElementById("modal");
+const modalMessage = document.getElementById("modalMessage");
 
 hablamosBtn.onclick = function () {
-let name = prompt("¿Cuál es tu nombre?");
-alert("¡Hola " + name + ", BIENVENID@!! Aquí encontrarás algunos de mis proyectos. Si quieres saber más sobre mí, no dudes en ponerte en contacto 📩");
+    let name = prompt("¿Cuál es tu nombre?");
+    modalMessage.textContent = `¡Hola ${name}, BIENVENID@! Aquí encontrarás algunos de mis últimos proyectos. Si quieres saber más sobre mí, no dudes en ponerte en contacto 📩`;
+    modal.style.display = "block";
 };
+
+function closeModal() {
+    modal.style.display = "none";
+}
 
 //  MENU RESPONSIVE
 

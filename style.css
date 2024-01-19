@@ -143,7 +143,6 @@ html {
 .checkbox:checked+.button-toogle span {
   left: 30px;
   background-color: var(--main-color);
-  /* Cambiar el color al estado marcado */
 }
 
 /* Estilo ocultar el checkbox */
@@ -173,17 +172,68 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* Estilo para el botón al pasar el mouse (opcional) */
 #scrollToTopBtn:hover {
   background-color: #FF1AEC;
-  /* Cambia el color de fondo al pasar el mouse */
 }
 
-/* Estilo para mostrar el botón */
 .scrollToTopBtn.showBtn {
   display: block;
-  /* Muestra el botón */
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(14, 14, 14);
+  font-size: xx-large;
+}
+
+.close {
+  position: absolute;
+  top: -6px;
+  right: 6px;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+#modalMessage {
+  font-weight: 300px;
+  color: #333;      
+  font-size: 23px;   
+}
+
+#modalMessage {
+  font-weight: normal;
+  color: #333;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+      width: 90%;
+      padding: 10px;
+  }
+
+  #modalMessage {
+      font-size: 16px;
+  }
+}
+
+
 
 
 .home {
@@ -200,6 +250,8 @@ input[type="checkbox"] {
   justify-content: start;
   margin-top: -93px;
 }
+
+
 
 @media only screen and (min-width: 768px) {
   .home {
