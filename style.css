@@ -839,6 +839,7 @@ input[type="checkbox"] {
   background-color: transparent;
   scroll-snap-align: start;
   object-fit: cover;
+  height: 55px;
 }
 
 .row {
