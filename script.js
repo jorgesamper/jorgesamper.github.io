@@ -40,7 +40,7 @@ const modalMessage = document.getElementById("modalMessage");
 
 hablamosBtn.onclick = function () {
     let name = prompt("¿Cuál es tu nombre?");
-    modalMessage.textContent = `¡Hola ${name}, BIENVENID@! Aquí encontrarás algunos de mis últimos proyectos. Si quieres saber más sobre mí, no dudes en ponerte en contacto 📩`;
+    modalMessage.innerHTML = `¡Hola ${name}, <span style="font-weight: bold;">BIENVENID@</span>! Aquí encontrarás algunos de mis últimos proyectos. Si quieres saber más sobre mí, no dudes en ponerte en contacto 📩`;
     modal.style.display = "block";
 };
 
