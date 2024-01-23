@@ -946,7 +946,7 @@ input[type="checkbox"] {
 }
 
 .img2:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 
 .img3 {
@@ -962,7 +962,7 @@ input[type="checkbox"] {
 
 
 .img3:hover {
-  transform: scale(1.21);
+  transform: scale(1.31);
 }
   
 .img4:hover {
