@@ -829,6 +829,7 @@ input[type="checkbox"] {
   overflow-x: auto;
   position: relative;
   scroll-snap-type: x mandatory;
+  margin-bottom: 60px;
 }
 
 .custom-row {
