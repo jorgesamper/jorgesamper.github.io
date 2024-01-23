@@ -67,6 +67,25 @@ html {
   backdrop-filter: blur(4px);
 }
 
+/* cursor */
+/* .curzr-glitch-effect {
+  --size: 20px;
+  --delay: 20ms;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  overflow: visible;
+  transition: 500ms, transform var(--delay);
+  user-select: none;
+  pointer-events: none;
+} */
+
 /* scroll */
 .progress {
   position: fixed;
