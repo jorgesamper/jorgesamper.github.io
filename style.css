@@ -1216,7 +1216,7 @@ input:focus~.highlight {
 
   .main-text {
 
-    padding: 6%;
+    padding: 3 6%;
     background: RGB(29, 0, 44);
     background-color: rgb(29, 0, 44);
     background: linear-gradient(to bottom right, rgb(29, 0, 44), transparent);
