@@ -299,6 +299,20 @@ input[type="checkbox"] {
   line-height: 1.1;
 }
 
+.slide {
+  position: relative;
+}
+
+.slide:hover .one {
+  animation: tadaAnimation 1s;
+}
+
+@keyframes tadaAnimation {
+  0% {
+      transform: scale(1);
+  }
+}
+
 
 /* Estilo para dispositivos móviles */
 @media screen and (max-width: 768px) {
