@@ -640,8 +640,6 @@ input[type="checkbox"] {
 
 .services {
   background-color: rgb(29, 0, 44);
-
-  padding-top: 25px;
 }
 
 @keyframes slideLeft {
@@ -661,7 +659,7 @@ input[type="checkbox"] {
 }
 
 .services-words {
-  padding: 25px 6%;
+  padding: 20px 6%;
   text-align: center;
 }
 
@@ -704,13 +702,12 @@ input[type="checkbox"] {
 
 }
 
+
 .main-text p {
   color: var(--second-color);
   font-size: 15px;
   margin: 15px 0 15px;
-
 }
-
 
 .main-text-tittle {
   text-align: center;
@@ -1276,7 +1273,7 @@ input:focus~.highlight {
     font-size: var(--h2-font);
     line-height: 1;
     color: #ffffff;
-    padding: 3% 6%;
+    padding: 40px 6%;
     background-color: RGB(29, 0, 44);
   }
 
@@ -1539,6 +1536,7 @@ input:focus~.highlight {
   .show-nav .fifth {
     transition: all 1.4s ease-out;
   }
+
 
 }
 
