@@ -1323,10 +1323,6 @@ input:focus~.highlight {
 /*  Small device */
 @media screen and (max-width: 767.98px) {
 
-
-
-
-
   .navbar__links {
     overflow: hidden;
     display: flex;
@@ -1348,7 +1344,6 @@ input:focus~.highlight {
 
     width: 100vw;
     transform: translateX(0);
-
   }
 
   .navbar__link {
