@@ -554,6 +554,10 @@ input[type="checkbox"] {
   }
 }
 
+.about-image:hover img {
+  transform: scale(1.04); 
+  transition: transform 0.3s ease;
+}
 .about-digital-skills {
   padding: 20px 7%;
   background-color: RGB(29, 0, 44);
