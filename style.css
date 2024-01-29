@@ -876,7 +876,7 @@ input[type="checkbox"] {
 }
 
 .bx-chevron-down:hover {
-  transform: scale(1.2); 
+  transform: translateY(-5px);
 }
 
 .row {
