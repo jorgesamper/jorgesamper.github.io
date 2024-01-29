@@ -875,8 +875,8 @@ input[type="checkbox"] {
   height: 55px;
 }
 
-.custom-row:hover {
-  transform: scale(1.3); 
+.bx-chevron-down:hover {
+  transform: scale(1.2); 
 }
 
 .row {
