@@ -27,6 +27,7 @@ html {
   background-color: linear-gradient(to right, #72ff7e, white);
   color:#ffffff;
   text-shadow: 0 0 10px #ff1aec,  0 0 15px #ff1aec; 
+  -webkit-text-shadow: 0 0 5px #ff1aec, 0 0 10px #ff1aec, 0 0 15px #ff1aec;
 }
 
 .theme {
