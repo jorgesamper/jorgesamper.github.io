@@ -23,6 +23,11 @@ html {
   --p-font: 1.1rem;
 }
 
+::selection {
+  background-color: background: linear-gradient(to right, #ff1aec, white);
+  color:#ff1aec;
+}
+
 .theme {
   --first: #1e0029;
   --second: #ffffff;
