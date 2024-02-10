@@ -24,7 +24,7 @@ html {
 }
 
 ::selection {
-  background-color: background: linear-gradient(to right, #ff1aec, white);
+  background-color: linear-gradient(to right, #ff1aec, white);
   color:#ff1aec;
 }
 
