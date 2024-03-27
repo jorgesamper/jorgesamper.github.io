@@ -707,17 +707,31 @@ input[type="checkbox"] {
 }
 
 .words {
-  animation: slideLeft 1s ease-out;
-  /* Aplica la animación de desplazamiento */
   display: inline-block;
   margin-top: 15px;
   margin-right: 10px;
   padding: 10px 20px;
-  background-color: RGB(49, 0, 72);
+  background-color: rgb(49, 0, 72);
   border-radius: 50px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.words:hover,
+.words:focus {
+  animation: pulse 0s;
+  box-shadow: 0 0 0 2em transparent;
+ 
+  cursor: pointer;
+  
+  border: 2px  solid #ffffff;
+  box-shadow: 0 0 18px 0px #ff1aec; 
+
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
 }
 
 .services-container {
@@ -784,8 +798,8 @@ input[type="checkbox"] {
   transform: translateY(-5px);
   cursor: pointer;
   border-color: #ff1aec;
-  border: 10px;
-  box-shadow: 0 0px 28px 0px #ff1aec;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 18px 0px #ff1aec; /* Efecto de sombra similar al de .words:hover */
 }
 
 .box h3 {
@@ -872,6 +886,10 @@ input[type="checkbox"] {
   margin-bottom: 60px;
 }
 
+.portafolio-content:hover > :not(:hover) {
+opacity:0.4;
+}
+
 .custom-row {
   flex: 0 0 auto;
   position: relative;
@@ -889,16 +907,14 @@ input[type="checkbox"] {
   transform: translateY(-5px);
 }
 
-portafolio-content .row {
+.portafolio-content .row {
   position: relative;
 }
 
-.portafolio-content .row:hover img {
-  filter: brightness(70%); /* Reduce el brillo de todas las imágenes al hacer hover en una */
-}
+
 
 .portafolio-content .row:not(:hover) img {
-  filter: brightness(70%); /* Ajusta el brillo de las imágenes no activas */
+  filter: brightness(75%); /* Ajusta el brillo de las imágenes no activas */
 }
 
 .portafolio-content .row:hover img:hover {
