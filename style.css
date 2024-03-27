@@ -722,10 +722,10 @@ input[type="checkbox"] {
 .words:focus {
   animation: pulse 0s;
   box-shadow: 0 0 0 2em transparent;
- 
+  transform: translateY(-3px);
   cursor: pointer;
   
-  border: 2px  solid #ffffff;
+  /* border: 2px  solid #ffffff; */
   box-shadow: 0 0 18px 0px #ff1aec; 
 
 }
@@ -790,15 +790,15 @@ input[type="checkbox"] {
   /* border-radius: 8px; */
   transition: all .35s ease;
   border-radius: 20px;
-  border-color: #1800ee;
-  border-width: 1px;
+ 
+  border-width: 2px;
 }
 
 .box:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   cursor: pointer;
   border-color: #ff1aec;
-  border: 2px solid #ffffff;
+  /* border: 1.5px solid #ffffff; */
   box-shadow: 0 0 18px 0px #ff1aec; /* Efecto de sombra similar al de .words:hover */
 }
 
