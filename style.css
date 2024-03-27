@@ -50,6 +50,9 @@ html {
 .body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  cursor: url('./img/close.svg');
+  /* cursor: crosshair; */
+
 }
 
 .section {
@@ -886,6 +889,26 @@ input[type="checkbox"] {
   transform: translateY(-5px);
 }
 
+portafolio-content .row {
+  position: relative;
+}
+
+.portafolio-content .row:hover img {
+  filter: brightness(70%); /* Reduce el brillo de todas las imágenes al hacer hover en una */
+}
+
+.portafolio-content .row:not(:hover) img {
+  filter: brightness(70%); /* Ajusta el brillo de las imágenes no activas */
+}
+
+.portafolio-content .row:hover img:hover {
+  filter: brightness(100%); /* Restaura el brillo de la imagen sobre la que se realiza hover */
+}
+
+.portafolio-content .row img {
+  transition: filter 0.3s ease; /* Agrega una transición suave */
+}
+
 .row {
   flex: 0 0 auto;
   position: relative;
@@ -931,13 +954,15 @@ input[type="checkbox"] {
 
 /* Indicador de desplazamiento */
 .portafolio-content::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
+  background-color: #72FF7E;
   border-radius: 10px;
 }
 
 /* Hover sobre la barra de desplazamiento */
 .portafolio-content::-webkit-scrollbar-thumb:hover {
-  background-color: #c900bf;
+
+  box-shadow: 0 0 40px 15px #72FF7E;; 
+  z-index:4;
 }
 
 .arrow {
