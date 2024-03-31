@@ -191,6 +191,20 @@ function closeModal() {
     modal.style.display = "none";
 }
 
+//BACKGROUND EFFECT
+
+document.addEventListener('DOMContentLoaded', function() {
+    const homeSection = document.getElementById('home');
+    const background = homeSection.querySelector('.background');
+  
+    homeSection.addEventListener('mousemove', function(e) {
+      const xPos = (e.clientX / window.innerWidth - 0.5) * 50;
+      const yPos = (e.clientY / window.innerHeight - 0.5) * 50;
+  
+      background.style.transform = `translate(${xPos}px, ${yPos}px)`;
+    });
+  });
+  
 //  MENU RESPONSIVE
 
 function toggleMenu() {

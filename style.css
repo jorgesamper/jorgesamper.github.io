@@ -266,21 +266,39 @@ input[type="checkbox"] {
 
 
 
-
 .home {
   position: relative;
   height: 100vh;
   width: 100%;
   padding-left: 6%;
   background-image: url(img/Background\ 2.png);
-  /* background-color: rgb(29, 0, 44); */
-  background-size: cover;
-  background-position: center;
+  /* Combina ambas imágenes de fondo */
+  background-size: cover; /* Tamaño del 30% para la primera imagen y cover para la segunda */
+  background-position: right center, center; /* Primera imagen a la derecha, segunda imagen al centro */
+  background-repeat: no-repeat, repeat; /* No repetir la primera imagen, repetir la segunda imagen */
   display: flex;
   align-items: center;
   justify-content: start;
   margin-top: -93px;
+  animation: moveBackground 10s linear infinite; /* Aplicar la animación al fondo */
 }
+
+/* .home .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/BackgroundGeometric.png);
+  background-size: cover;
+  background-position: center;
+} */
+
+
+
+
+
+
 
 
 
@@ -561,6 +579,8 @@ input[type="checkbox"] {
   margin-left: auto;
   margin-right: auto;
   padding: 3% 7%;
+
+
 }
 
 .about-image {
